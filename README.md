@@ -2,3 +2,6 @@
 Aquesta és una petita aplicació web feta amb PHP.
 
 forked from [CarlesCanals/Desplegament-web](https://github.com/CarlesCanals/Desplegament-web)
+
+## GITHUB DESKTOP
+Prova de sincronització
