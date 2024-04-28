@@ -5,3 +5,6 @@ forked from [CarlesCanals/Desplegament-web](https://github.com/CarlesCanals/Desp
 
 ## GITHUB DESKTOP
 Prova de sincronització
+
+## DE GITHUB.COM A GITHUB DESKTOP
+Prova de sincronització
