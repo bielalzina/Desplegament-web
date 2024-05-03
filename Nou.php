@@ -1,10 +1,55 @@
 <?php
 
+/**
+ * Aquest fitxer Nou.php inclou la classe Afegir que permet introduir
+ * nous productes en la Bases de Dades
+ *
+ * @author Gabriel Alzina Alomar
+ * @version 1.0
+ * @date 28/04/2024
+ */
+
+
 require_once('Connexio.php');
 require_once('Header.php');
 
+
+/**
+ * La classe Afegir representa la inserció de nous productes en la BBDD
+ *
+ * Mitjançant aquesta classe i els seus mètodes es gestiona
+ * la introducció d’un nou registre en la taula productes.
+ * Inicialment es comprova si s’han rebut les dades del nou
+ * producte per POST.
+ * El primer cop que s’executa l’script, no s’han d’haver rebut les 
+ * dades, per la qual cosa es crida el mètode que genera el 
+ * formulari per introduir les dades del nou producte.
+ * Un cop enviat el formulari a aquest mateix fitxer, i per tant,
+ * rebuts els valors per POST, es procedeix a inserir el nou producte
+ * en la BBDD, mostrant un missatge d'èxit o errada,
+ * en funció de si s’ha realitzat o no la inserció
+ */
+
+
 class Afegir {
 
+    
+    /**
+    * El mètode mostrarFormulari() genera el codi HTML del formulari
+    * per inserir un nou producte en la taula productes
+    *
+    * El formulari inclou camps pel nom del producte, 
+    * la descripció del producte, el preu del producte i 
+    * la categoria a la que pertany.
+    * Les categories existents s’obtenen a partir
+    * d’una consulta a la BBDD
+    * Tots els camps del formulari son obligatoris.
+    * Els valors s’envien per POST a aquest mateix script Nou.php
+    * 
+    * @return string Codi HTML del formulari
+    */
+
+    
     // Metode per pintar el formaulari per afegir un nou producte
     public function mostrarFormulari() {
         

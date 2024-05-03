@@ -1,16 +1,132 @@
-# Desplegament-web
-Aquesta és una petita aplicació web feta amb PHP.
+# CRUD PRODUCTES
 
-forked from [CarlesCanals/Desplegament-web](https://github.com/CarlesCanals/Desplegament-web)
+Aplicació PHP que permet crear, llegir, actualitzar i eliminar els productes en una BBDD MySql
 
-## GITHUB DESKTOP
-Prova de sincronització
+## Començant
 
-## DE GITHUB.COM A GITHUB DESKTOP
-Prova de sincronització
+Pots descarregar una [còpia del projecte](https://github.com/bielalzina/Desplegament-web/archive/refs/heads/main.zip) i provar-lo en la teva màquina local 
+amb finalitats de desenvolupament. 
+Consulta les següents instruccions que te guiaran en el procés d'implementació
 
-## DE GITHUB.COM A NETBEANS
-Prova de sincronització
+### Requisits previs
 
-## DE GITHUB.COM A GIT BASH
-Prova de sincronització
+Per poder executar el projecte necessites:
+
+* Servidor WEB
+* PHP
+* Servidor MySQL
+
+Tant si fas servir Windows com Linux, [XAMPP](https://www.apachefriends.org/es/index.html) és una bona opció.
+
+
+### Com implementar el projecte
+
+1. Crea en el servidor MySQL la BBDD la_meva_botiga i dins aquesta les taules categories i productes. Fes servir les següents instruccions SQL:  
+
+
+    ```CREATE DATABASE IF NOT EXISTS la_meva_botiga;
+    USE la_meva_botiga;
+
+    -- Crea la taula 'categories'
+    CREATE TABLE IF NOT EXISTS categories (
+         id INT AUTO_INCREMENT PRIMARY KEY,
+         nom VARCHAR(50) NOT NULL
+    );
+
+    -- Insereix dades a la taula 'categories'
+    INSERT INTO categories (nom) VALUES
+         ('Electrònics'),
+         ('Roba');
+
+    -- Crea la taula 'productes'
+    CREATE TABLE IF NOT EXISTS productes (
+         id INT AUTO_INCREMENT PRIMARY KEY,
+         nom VARCHAR(100) NOT NULL,
+         descripció TEXT,
+         preu DECIMAL(10, 2) NOT NULL,
+         categoria_id INT NOT NULL,
+         FOREIGN KEY (categoria_id) REFERENCES categories(id)
+    );
+
+    -- Insereix dades a la taula 'productes'
+    INSERT INTO productes (nom, descripció, preu, categoria_id) VALUES
+         ('Laptop', 'Portàtil d\'alta gamma', 1200.00, 1),
+         ('Smartphone', 'Telèfon intel·ligent d\'última generació', 800.00, 1),
+         ('Camisa', 'Camisa de vestir per a homes', 50.00, 2),
+         ('Vestit', 'Vestit de nit per a dones', 80.00, 2),
+         ('Sabates', 'Sabates esportives per córrer', 120.00, 2);```
+
+2. Crea un directori, per exemple 'projecte_crud', en la carpeta root del servidor web i copia 
+els arxius que has descarregat anteriorment. T'ha quedar una cosa semblant a:
+
+![](https://drive.google.com/file/d/1s6ccx_Bcx1nZ0q3IYfEaumaOAmAPCgvC/view?usp=sharing)
+  
+Una sèrie d'exemples pas a pas que us expliquen com posar en funcionament un env de desenvolupament
+
+Digues quin serà el pas
+
+```
+Posa l'exemple
+```
+
+I repeteix
+
+```
+fins a acabar
+```
+
+Acabeu amb un exemple de treure algunes dades del sistema o utilitzar-les per a una petita demostració
+
+## Execució de les proves
+
+Expliqueu com executar les proves automatitzades per a aquest sistema
+
+### Desglossa en proves extrem a extrem
+
+Explica què són aquestes proves i per què
+
+```
+Posa un exemple
+```
+
+### I proves d'estil de codificació
+
+Explica què són aquestes proves i per què
+
+```
+Posa un exemple
+```
+
+## Desplegament
+
+Afegiu notes addicionals sobre com implementar-ho en un sistema en directe
+
+## Construït amb
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El marc web utilitzat
+* [Maven](https://maven.apache.org/) - Gestió de dependències
+* [ROME](https://rometools.github.io/rome/) - S'utilitza per generar canals RSS
+
+## Contribuint
+
+Si us plau, llegiu [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) per obtenir més informació sobre el nostre codi de conducta i el procés per enviar-nos les sol·licituds d'extracció.
+
+## Versions
+
+Utilitzem [SemVer](http://semver.org/) per fer versions. Per a les versions disponibles, consulteu les [etiquetes d'aquest repositori](https://github.com/your/project/tags).
+
+## Autors
+
+* **Billie Thompson** - *Treball inicial* - [PurpleBooth](https://github.com/PurpleBooth)
+
+Consulteu també la llista de [col·laboradors](https://github.com/your/project/contributors) que van participar en aquest projecte.
+
+## Llicència
+
+Aquest projecte té una llicència sota la llicència MIT; consulteu el fitxer [LICENSE.md](LICENSE.md) per obtenir més informació
+
+## Agraïments
+
+* Punta de barret a qualsevol persona el codi de qui s'hagi utilitzat
+* Inspiració
+* etc
