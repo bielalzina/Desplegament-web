@@ -133,11 +133,10 @@ Tens a la teva disposció la documentació del projecte:
 
 ![doc_app](https://github.com/bielalzina/Desplegament-web/blob/1e2de4a509740388d214ad796b5010964ad93643/imatges/doc_app.png)
 
-## Construït amb
+## EINES UTILIZADES
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El marc web utilitzat
-* [Maven](https://maven.apache.org/) - Gestió de dependències
-* [ROME](https://rometools.github.io/rome/) - S'utilitza per generar canals RSS
+* IDE: [Apache NetBeans](https://netbeans.apache.org/front/main/index.html)
+* CSS: [Bootstrap](https://getbootstrap.com/)
 
 ## Contribuint
 
