@@ -80,7 +80,7 @@ L'aplicació s'inicia des del script Principal.php. En el teu navegador WEB pref
 
 Es carrega el CRUD:
 
-![captura_crud](https://github.com/bielalzina/Desplegament-web/blob/a83eea17e8a55db1eb5ee4c002ce0f29c2b1a6ff/imatges/xampp.png?raw=true)
+![captura_crud](https://github.com/bielalzina/Desplegament-web/blob/7b8b96f48ebfd45d9531a4811ead19bcfc634adc/imatges/captura_crud.png)
 
 , des d'on es poden realitzar les accions següents:
 
