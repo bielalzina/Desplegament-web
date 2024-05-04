@@ -2,13 +2,13 @@
 
 Aplicació PHP que permet crear, llegir, actualitzar i eliminar els productes en una BBDD MySql
 
-## Començant
+## COM COMENÇAR
 
 Pots descarregar una [còpia del projecte](https://github.com/bielalzina/Desplegament-web/archive/refs/heads/main.zip) i provar-lo en la teva màquina local 
 amb finalitats de desenvolupament. 
 Consulta les següents instruccions que te guiaran en el procés d'implementació
 
-### Requisits previs
+### REQUISITS PREVIS
 
 Per poder executar el projecte necessites:
 
@@ -19,7 +19,7 @@ Per poder executar el projecte necessites:
 Tant si fas servir Windows com Linux, [XAMPP](https://www.apachefriends.org/es/index.html) és una bona opció.
 
 
-### Com implementar el projecte
+### IMPLEMENTACIÓ DEL PROJECTE
 
 1. Crea en el servidor MySQL la BBDD la_meva_botiga i dins aquesta les taules categories i productes. Fes servir les següents instruccions SQL:  
 
@@ -59,27 +59,22 @@ Tant si fas servir Windows com Linux, [XAMPP](https://www.apachefriends.org/es/i
 2. Crea un directori, per exemple 'projecte_crud', en la carpeta root del servidor web i copia 
 els arxius que has descarregat anteriorment. T'ha quedar una cosa semblant a:
 
-    ![captura_estructura_arxius](https://github.com/bielalzina/Desplegament-web/blob/main/imatges/projecte_crud.png?raw=true){width='400px'}
+    ![captura_estructura_arxius](https://github.com/bielalzina/Desplegament-web/blob/main/imatges/projecte_crud.png?raw=true)
   
-Una sèrie d'exemples pas a pas que us expliquen com posar en funcionament un env de desenvolupament
+3. Si escau, cal que modifiquis les dades de connexió a la BBDD en l'script Connexio.php:
 
-Digues quin serà el pas
+    ```private $host = "localhost";
+       private $usuario = "usuari_sql";
+       private $contraseña = "password_usuari_sql";
+       private $baseDatos = "la_meva_botiga";```
 
-```
-Posa l'exemple
-```
+## EXECUCIÓ
 
-I repeteix
+Inicia el servidor WEB i el servidor MySQL:
 
-```
-fins a acabar
-```
+    ![captura_estructura_arxius](https://github.com/bielalzina/Desplegament-web/blob/main/imatges/projecte_crud.png?raw=true)
 
-Acabeu amb un exemple de treure algunes dades del sistema o utilitzar-les per a una petita demostració
-
-## Execució de les proves
-
-Expliqueu com executar les proves automatitzades per a aquest sistema
+En el teu navegador WEB preferit, introdueix la URL següent: http://localhost/projecte_crud/Principal.php
 
 ### Desglossa en proves extrem a extrem
 
