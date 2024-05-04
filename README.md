@@ -74,7 +74,7 @@ els arxius que has descarregat anteriorment. T'ha quedar una cosa semblant a:
 
 Inicia el servidor WEB i el servidor MySQL:
 
-    ![xampp](https://github.com/bielalzina/Desplegament-web/blob/main/imatges/xampp.png?raw=true)
+    ![xampp](https://github.com/bielalzina/Desplegament-web/blob/a83eea17e8a55db1eb5ee4c002ce0f29c2b1a6ff/imatges/xampp.png)
 
 En el teu navegador WEB preferit, introdueix la URL següent: http://localhost/projecte_crud/Principal.php
 
