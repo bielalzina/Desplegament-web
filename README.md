@@ -63,10 +63,12 @@ els arxius que has descarregat anteriorment. T'ha quedar una cosa semblant a:
   
 3. Si escau, cal que modifiquis les dades de connexió a la BBDD en l'script Connexio.php:
 
-    ```private $host = "localhost";
-       private $usuario = "usuari_sql";
-       private $contraseña = "password_usuari_sql";
-       private $baseDatos = "la_meva_botiga";```
+    ```
+    private $host = "localhost";
+    private $usuario = "usuari_sql";
+    private $contraseña = "password_usuari_sql";
+    private $baseDatos = "la_meva_botiga";
+    ```
 
 ## EXECUCIÓ
 
