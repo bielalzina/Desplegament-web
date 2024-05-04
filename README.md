@@ -78,29 +78,41 @@ Inicia el servidor WEB i el servidor MySQL:
 
 L'aplicació s'inicia des del script Principal.php. En el teu navegador WEB preferit, introdueix la URL següent: http://localhost/projecte_crud/Principal.php
 
-Es carrega el CRUD:
+Es carrega el CRUD, llistant tots els productes existents en la BBDD (READ):
 
 ![captura_crud](https://github.com/bielalzina/Desplegament-web/blob/7b8b96f48ebfd45d9531a4811ead19bcfc634adc/imatges/captura_crud.png)
 
-, des d'on es poden realitzar les accions següents:
+En aquesta pantalla inicial, accedim a la funció de LECTURA del CRUD. 
 
- 
+### Nou producte (CREATE)
 
-### Desglossa en proves extrem a extrem
+Si feim clic en el boto Nou producte, accedim al formulari que ens permet inserir 
+els valors del nou registre. Confirmam les dades:
 
-Explica què són aquestes proves i per què
+![nou_producte_1](https://github.com/bielalzina/Desplegament-web/blob/826db6e084c3edc4fd94649e97d958e9124d298c/imatges/nou_producte_1.png)
 
-```
-Posa un exemple
-```
+L'aplicació ens indica que el nou producte s'ha afegit correctament:
 
-### I proves d'estil de codificació
+![nou_producte_2](https://github.com/bielalzina/Desplegament-web/blob/826db6e084c3edc4fd94649e97d958e9124d298c/imatges/nou_producte_2.png)
 
-Explica què són aquestes proves i per què
+El nou producte apareix en la llista inicial:
 
-```
-Posa un exemple
-```
+![nou_producte_3](https://github.com/bielalzina/Desplegament-web/blob/826db6e084c3edc4fd94649e97d958e9124d298c/imatges/nou_producte_3.png)
+
+### Modificar (UPDATE)
+
+Per actualitzar els valors d'un producte, feim clic en Modificar. Accedim al formulari amb les dades del producte. 
+Actualizam els valors que corresponguin i feim clic en Guardar:
+
+![modificar_1](https://github.com/bielalzina/Desplegament-web/blob/826db6e084c3edc4fd94649e97d958e9124d298c/imatges/modificar_1.png)
+
+Accedim a la pantalla inicial on podem comprovar com s'han actualitzat les dades del producte:
+
+![modificar_2](https://github.com/bielalzina/Desplegament-web/blob/826db6e084c3edc4fd94649e97d958e9124d298c/imatges/modificar_2.png)
+
+### Eliminar (DELETE)
+
+
 
 ## Desplegament
 
