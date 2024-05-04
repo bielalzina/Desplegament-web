@@ -59,7 +59,7 @@ Tant si fas servir Windows com Linux, [XAMPP](https://www.apachefriends.org/es/i
 2. Crea un directori, per exemple 'projecte_crud', en la carpeta root del servidor web i copia 
 els arxius que has descarregat anteriorment. T'ha quedar una cosa semblant a:
 
-![](https://drive.google.com/file/d/1s6ccx_Bcx1nZ0q3IYfEaumaOAmAPCgvC/view?usp=sharing)
+![captura_estructura_arxius](https://github.com/bielalzina/Desplegament-web/blob/main/imatges/projecte_crud.png?raw=true)
   
 Una sèrie d'exemples pas a pas que us expliquen com posar en funcionament un env de desenvolupament
 
