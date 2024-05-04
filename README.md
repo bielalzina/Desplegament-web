@@ -101,7 +101,7 @@ El nou producte apareix en la llista inicial:
 
 ### Modificar (UPDATE)
 
-Per actualitzar els valors d'un producte, feim clic en Modificar. Accedim al formulari amb les dades del producte. 
+Per actualitzar els valors d'un producte, feim clic en Modificar en la fila corresponent. Accedim al formulari amb les dades del producte. 
 Actualizam els valors que corresponguin i feim clic en Guardar:
 
 ![modificar_1](https://github.com/bielalzina/Desplegament-web/blob/826db6e084c3edc4fd94649e97d958e9124d298c/imatges/modificar_1.png)
@@ -112,11 +112,26 @@ Accedim a la pantalla inicial on podem comprovar com s'han actualitzat les dades
 
 ### Eliminar (DELETE)
 
+Per eliminar un producte, feim clic en Eliminar en la fila corresponent. L'aplicació ens demana confirmació per dur a terme l'eliminació:
+
+![eliminar_1](https://github.com/bielalzina/Desplegament-web/blob/616fca9b606e578ea1b372585c2c5902c0a44edb/imatges/eliminar_1.png)
+
+L'aplicació ens indica que el producte s'ha eliminat correctament:
+
+![eliminar_2](https://github.com/bielalzina/Desplegament-web/blob/616fca9b606e578ea1b372585c2c5902c0a44edb/imatges/eliminar_2.png)
+
+En la pantalla principal podem observar com el producte ja no apareix:
+
+![eliminar_3](https://github.com/bielalzina/Desplegament-web/blob/616fca9b606e578ea1b372585c2c5902c0a44edb/imatges/eliminar_3.png)
 
 
-## Desplegament
+## DOCUMENTACIÓ DE L'APLICACIÓ
 
-Afegiu notes addicionals sobre com implementar-ho en un sistema en directe
+En la URL: http://localhost/projecte_crud/doc_app/
+
+Tens a la teva disposció la documentació del projecte:
+
+
 
 ## Construït amb
 
