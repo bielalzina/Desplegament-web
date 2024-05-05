@@ -136,28 +136,30 @@ Tens a la teva disposció la documentació del projecte:
 ## EINES UTILIZADES
 
 * IDE: [Apache NetBeans](https://netbeans.apache.org/front/main/index.html)
+* [PHP](https://www.php.net/manual/es/intro-whatis.php)
+* [HTML](https://www.w3schools.com/html/)
 * CSS: [Bootstrap](https://getbootstrap.com/)
+* [SQL](https://www.w3schools.com/sql/default.asp)
 
-## Contribuint
+## CONTRIBUCIONS
 
-Si us plau, llegiu [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) per obtenir més informació sobre el nostre codi de conducta i el procés per enviar-nos les sol·licituds d'extracció.
+Qualsevol aportació de millora del projecte, serà bevinguda
 
-## Versions
+## VERSIONS
 
-Utilitzem [SemVer](http://semver.org/) per fer versions. Per a les versions disponibles, consulteu les [etiquetes d'aquest repositori](https://github.com/your/project/tags).
+Versió actual: 1.0.0
 
-## Autors
+## AUTORS i COL·LABORADORS
 
-* **Billie Thompson** - *Treball inicial* - [PurpleBooth](https://github.com/PurpleBooth)
+* AUTOR: **Carles Canals** - [Desplegament-web](https://github.com/bielalzina/Desplegament-web)
+* COL·LABORADOR: **Gabriel Alzina**
 
-Consulteu també la llista de [col·laboradors](https://github.com/your/project/contributors) que van participar en aquest projecte.
+## LLICÈNCIA
 
-## Llicència
+Llicència atorgada per **Carles Canals**, consultar en - [Desplegament-web](https://github.com/bielalzina/Desplegament-web)
 
-Aquest projecte té una llicència sota la llicència MIT; consulteu el fitxer [LICENSE.md](LICENSE.md) per obtenir més informació
+## AGRAÏMENTS
 
-## Agraïments
-
-* Punta de barret a qualsevol persona el codi de qui s'hagi utilitzat
-* Inspiració
-* etc
+* Molt especialment a **Carles Canals**
+* Al professorat del [CIFP PAU CASESNOVES](https://paucasesnovescifp.cat/)
+* Als meus companys
