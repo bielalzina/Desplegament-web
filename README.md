@@ -129,7 +129,7 @@ En la pantalla principal podem observar com el producte ja no apareix:
 
 En la URL: http://localhost/projecte_crud/doc_app/
 
-Tens a la teva disposció la documentació del projecte:
+Tens a la teva disposició la documentació del projecte:
 
 ![doc_app](https://github.com/bielalzina/Desplegament-web/blob/1e2de4a509740388d214ad796b5010964ad93643/imatges/doc_app.png)
 
